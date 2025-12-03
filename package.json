@@ -1,9 +1,9 @@
 {
-  "name": "PanchArogya",
+  "name": "AyurSutra",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rakhi8076.github.io/PanchArogya/",
+  "homepage": "https://rakhi8076.github.io/AyurSutra/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

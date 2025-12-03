@@ -45,7 +45,7 @@ const App = () => (
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter basename="/PanchArogya">
+        <BrowserRouter basename="/AyurSutra">
           <Routes>
             {/* Landing Page route */}
             <Route path="/" element={<LandingPage />} />
