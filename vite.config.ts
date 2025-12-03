@@ -12,8 +12,7 @@ export default defineConfig(({ mode }) => ({
 
   preview: {
     host: true,
-    port: 3000,
-    allowedHosts: ["ayursutra-u5pb.onrender.com"],
+    port: 8080,
   },
 
   plugins: [
