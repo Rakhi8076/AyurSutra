@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* PanchArogya Healthcare Design System - Earthy greens and professional healthcare styling */
+@layer base {
+  /* This is the key fix to remove all space from the edges */
+  html,
+  body,
+  #root {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --background: 120 20% 98%;
+    --foreground: 120 15% 15%;
+    --card: 0 0% 100%;
+    --card-foreground: 120 15% 15%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 120 15% 15%;
+    --primary: 140 35% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-light: 140 35% 65%;
+    --primary-dark: 140 40% 35%;
+    --secondary: 35 25% 90%;
+    --secondary-foreground: 120 15% 15%;
+    --muted: 120 20% 94%;
+    --muted-foreground: 120 10% 50%;
+    --accent: 180 25% 85%;
+    --accent-foreground: 180 30% 25%;
+    --success: 140 50% 50%;
+    --success-foreground: 0 0% 100%;
+    --warning: 45 90% 60%;
+    --warning-foreground: 45 30% 20%;
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 120 20% 88%;
+    --input: 120 20% 95%;
+    --ring: 140 35% 45%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 120 15% 8%;
+    --foreground: 120 20% 95%;
+    --card: 120 15% 10%;
+    --card-foreground: 120 20% 95%;
+    --popover: 120 15% 10%;
+    --popover-foreground: 120 20% 95%;
+    --primary: 140 35% 55%;
+    --primary-foreground: 120 15% 8%;
+    --primary-light: 140 35% 75%;
+    --primary-dark: 140 40% 35%;
+  }
+  
+  /* Apply base styles safely */
+  body {
+    background-color: hsl(var(--background));
+    color: hsl(var(--foreground));
+  }
+
+}
+
+/* Custom Tailwind utility for border using CSS variable */
+@layer utilities {
+  .border-border {
+    border: 1px solid hsl(var(--border));
+  }
+}
