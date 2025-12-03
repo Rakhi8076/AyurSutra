@@ -29,7 +29,7 @@ PanchArogya is a React-based web application that promotes holistic wellness thr
 
 ## 🚀 Live Demo
 
-Check out the live website here: 👉 [https://pancharogya.onrender.com/](https://pancharogya.onrender.com/)
+Check out the live website here: 👉 [https://Rakhi8076.github.io/AyurSutra](https://Rakhi8076.github.io/AyurSutra)
 
 ---
 
