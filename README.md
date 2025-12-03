@@ -1,4 +1,4 @@
-# 🌿 PanchArogya – Eco Therapy Suite
+# AyurSutra – Eco Therapy Suite
 
 PanchArogya is a React-based web application that promotes holistic wellness through Ayurveda, Panchakarma, Yoga, and Meditation practices. The platform provides an easy-to-use interface to explore therapies, track wellness, and access therapy-related resources.
 
