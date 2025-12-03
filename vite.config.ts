@@ -4,24 +4,29 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
+  base: "/PanchArogya/",  
   server: {
     host: "::",
     port: 8080,
   },
+
   preview: {
     host: true,
     port: 3000,
-    allowedHosts: ['ayursutra-u5pb.onrender.com']
+    allowedHosts: ["ayursutra-u5pb.onrender.com"],
   },
+
   plugins: [
     react(),
-    mode === "development" && componentTagger()
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
   },
+
   optimizeDeps: {
     exclude: ["lucide-react"],
   },
