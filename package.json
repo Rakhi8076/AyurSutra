@@ -1,9 +1,9 @@
 {
-  "name": "eco-therapy-suite",
+  "name": "PanchArogya",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Rakhi8076.github.io/PanchArogya",
+  "homepage": "https://rakhi8076.github.io/PanchArogya/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
